@@ -93,8 +93,8 @@
                {
                   "TODO": "canvasmodel-main.js",
                   "fileName": "canvasmodel-main.js",
-                  "from": "return 'img/face/' + options.facestyle + '/makeup/mascara' + (options.eyes_half ? \"_halfclosed\" : \"\") + '.png'",
-                  "to": "return 'img/face/' + options.closeup + '/makeup/mascara' + (options.eyes_half ? \"_halfclosed\" : \"\") + '.png'"
+                  "from": "'img/face/' + options.facestyle + '/makeup/mascara' + (options.eyes_half ? "_halfclosed" : "") + '.png'",
+                  "to": "'img/face/' + options.closeup + '/makeup/mascara' + (options.eyes_half ? "_halfclosed" : "") + '.png'"
                },
                {
                   "TODO": "canvasmodel-main.js",
@@ -141,8 +141,8 @@
                {
                   "TODO": "canvasmodel-main.js",
                   "fileName": "canvasmodel-main.js",
-                  "from": "`img/body/basenoarms-${options.body_type}.png`",
-                  "to": "'img/body/${options.bodystyle}/basenoarms-${options.body_type}.png/"
+                  "from": "img/body/basenoarms-${options.body_type}.png",
+                  "to": "img/body/${options.bodystyle}/basenoarms-${options.body_type}.png"
                },
                {
                   "TODO": "canvasmodel-main.js",
@@ -183,8 +183,8 @@
                {
                   "TODO": "canvasmodel-main.js",
                   "fileName": "canvasmodel-main.js",
-                  "from": "`img/body/leftarmidle-${options.body_type}.png`",
-                  "to": "`img/body/${options.bodystyle}/leftarmidle-${options.body_type}.png`"
+                  "from": "img/body/leftarmidle-${options.body_type}.png",
+                  "to": "img/body/${options.bodystyle}/leftarmidle-${options.body_type}.png"
                },
                {
                   "TODO": "canvasmodel-main.js",
@@ -195,8 +195,8 @@
                {
                   "TODO": "canvasmodel-main.js",
                   "fileName": "canvasmodel-main.js",
-                  "from": "`img/body/rightarmidle-${options.body_type}.png`",
-                  "to": "`img/body/${options.bodystyle}/rightarmidle-${options.body_type}.png`"
+                  "from": "img/body/rightarmidle-${options.body_type}.png",
+                  "to": "img/body/${options.bodystyle}/rightarmidle-${options.body_type}.png"
                }
             ],
             "twee": [
