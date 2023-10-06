@@ -1,187 +1,255 @@
 {
- "name": "beauty-selector",
- "version": "1.0.0",
- "styleFileList": [],
- "scriptFileList_earlyload": [],
- "scriptFileList_inject_early": [],
- "scriptFileList_preload": [
-
- ],
- "scriptFileList": [
-
- ],
- "tweeFileList": [
-
- ],
- "imgFileList": [
-
- ],
- "additionFile": [
-  "readme.md"
- ],
- "addonPlugin": [
-  {
-   "modName": "TweeReplacer",
-   "addonName": "TweeReplacerAddon",
-   "modVersion": "1.0.0",
-   "params": [ 
-
+   "name": "beauty-selector",
+   "version": "1.0.0",
+   "styleFileList": [],
+   "scriptFileList_earlyload": [],
+   "scriptFileList_inject_early": [],
+   "scriptFileList_preload": [],
+   "scriptFileList": [],
+   "tweeFileList": [],
+   "imgFileList": [],
+   "additionFile": [
+      "readme.md"
+   ],
+   "addonPlugin": [
+      {
+         "modName": "TweeReplacer",
+         "addonName": "TweeReplacerAddon",
+         "modVersion": "1.0.0",
+         "params": []
+      },
+      {
+         "modName": "ReplacePatcher",
+         "addonName": "ReplacePatcherAddon",
+         "modVersion": "1.0.0",
+         "params": {
+            "js": [
+               {
+                  "TODO": "canvasmodel-main.js",
+                  "fileName": "canvasmodel-main.js",
+                  "from": "return \"img/body/basehead.png\"",
+                  "to": "return \"img/body/\" + options.closeup + \"/basehead.png\""
+               },
+               {
+                  "TODO": "canvasmodel-main.js",
+                  "fileName": "canvasmodel-main.js",
+                  "from": "return 'img/face/' + options.facestyle + '/base.png'",
+                  "to": "return 'img/face/' + options.closeup + '/base.png'"
+               },
+               {
+                  "TODO": "canvasmodel-main.js",
+                  "fileName": "canvasmodel-main.js",
+                  "from": "return 'img/face/' + options.facestyle + '/freckles.png'",
+                  "to": "return 'img/face/' + options.closeup + '/freckles.png'"
+               },
+               {
+                  "TODO": "canvasmodel-main.js",
+                  "fileName": "canvasmodel-main.js",
+                  "from": "return 'img/face/' + options.facestyle + '/ears.png'",
+                  "to": "return 'img/face/' + options.closeup + '/ears.png'"
+               },
+               {
+                  "TODO": "canvasmodel-main.js",
+                  "fileName": "canvasmodel-main.js",
+                  "from": "return 'img/face/' + options.facestyle + '/eyes.png'",
+                  "to": "return 'img/face/' + options.closeup + '/eyes.png'"
+               },
+               {
+                  "TODO": "canvasmodel-main.js",
+                  "fileName": "canvasmodel-main.js",
+                  "from": "return 'img/face/' + options.facestyle + '/' + (options.eyes_bloodshot ? \"sclerabloodshot\" : \"sclera\") + '.png'",
+                  "to": "return 'img/face/' + options.closeup + '/' + (options.eyes_bloodshot ? \"sclerabloodshot\" : \"sclera\") + '.png'"
+               },
+               {
+                  "TODO": "canvasmodel-main.js",
+                  "fileName": "canvasmodel-main.js",
+                  "from": "return 'img/face/' + options.facestyle + '/' + (options.trauma ? \"irisempty\" : \"iris\") + (options.eyes_half ? \"_halfclosed\" : \"\") + '_left.png'",
+                  "to": "return 'img/face/' + options.closeup + '/' + (options.trauma ? \"irisempty\" : \"iris\") + (options.eyes_half ? \"_halfclosed\" : \"\") + '_left.png'"
+               },
+               {
+                  "TODO": "canvasmodel-main.js",
+                  "fileName": "canvasmodel-main.js",
+                  "from": "return 'img/face/' + options.facestyle + '/' + (options.trauma ? \"irisempty\" : \"iris\") + (options.eyes_half ? \"_halfclosed\" : \"\") + '_right.png'",
+                  "to": "return 'img/face/' + options.closeup + '/' + (options.trauma ? \"irisempty\" : \"iris\") + (options.eyes_half ? \"_halfclosed\" : \"\") + '_right.png'"
+               },
+               {
+                  "TODO": "canvasmodel-main.js",
+                  "fileName": "canvasmodel-main.js",
+                  "from": "return 'img/face/' + options.facestyle + '/eyelids' + (options.eyes_half ? \"_halfclosed\" : \"\") + '.png'",
+                  "to": "return 'img/face/' + options.closeup + '/eyelids' + (options.eyes_half ? \"_halfclosed\" : \"\") + '.png'"
+               },
+               {
+                  "TODO": "canvasmodel-main.js",
+                  "fileName": "canvasmodel-main.js",
+                  "from": "return 'img/face/' + options.facestyle + '/lashes' + (options.eyes_half ? \"_halfclosed\" : \"\") + '.png'",
+                  "to": "return 'img/face/' + options.closeup + '/lashes' + (options.eyes_half ? \"_halfclosed\" : \"\") + '.png'"
+               },
+               {
+                  "TODO": "canvasmodel-main.js",
+                  "fileName": "canvasmodel-main.js",
+                  "from": "return 'img/face/' + options.facestyle + '/makeup/eyeshadows' + (options.eyes_half ? \"_halfclosed\" : \"\") + '.png'",
+                  "to": "return 'img/face/' + options.closeup + '/makeup/eyeshadows' + (options.eyes_half ? \"_halfclosed\" : \"\") + '.png'"
+               },
+               {
+                  "TODO": "canvasmodel-main.js",
+                  "fileName": "canvasmodel-main.js",
+                  "from": "return 'img/face/' + options.facestyle + '/makeup/mascara' + (options.eyes_half ? \"_halfclosed\" : \"\") + '.png'",
+                  "to": "return 'img/face/' + options.closeup + '/makeup/mascara' + (options.eyes_half ? \"_halfclosed\" : \"\") + '.png'"
+               },
+               {
+                  "TODO": "canvasmodel-main.js",
+                  "fileName": "canvasmodel-main.js",
+                  "from": "return 'img/face/' + options.facestyle + '/brow' + options.brows + '.png'",
+                  "to": "return 'img/face/' + options.closeup + '/brow' + options.brows + '.png'"
+               },
+               {
+                  "TODO": "canvasmodel-main.js",
+                  "fileName": "canvasmodel-main.js",
+                  "from": "return 'img/face/' + options.facestyle + '/mouth' + options.mouth + '.png'",
+                  "to": "return 'img/face/' + options.closeup + '/mouth' + options.mouth + '.png'"
+               },
+               {
+                  "TODO": "canvasmodel-main.js",
+                  "fileName": "canvasmodel-main.js",
+                  "from": "return 'img/face/' + options.facestyle + '/makeup/lipstick_' + options.mouth + '.png'",
+                  "to": "return 'img/face/' + options.closeup + '/makeup/lipstick_' + options.mouth + '.png'"
+               },
+               {
+                  "TODO": "canvasmodel-main.js",
+                  "fileName": "canvasmodel-main.js",
+                  "from": "return 'img/face/' + options.facestyle + '/blush' + options.blush + '.png'",
+                  "to": "return 'img/face/' + options.closeup + '/blush' + options.blush + '.png'"
+               },
+               {
+                  "TODO": "canvasmodel-main.js",
+                  "fileName": "canvasmodel-main.js",
+                  "from": "return 'img/face/' + options.facestyle + '/' + 'tear' + options.tears + '.png'",
+                  "to": "return 'img/face/' + options.closeup + '/' + 'tear' + options.tears + '.png'"
+               },
+               {
+                  "TODO": "canvasmodel-main.js",
+                  "fileName": "canvasmodel-main.js",
+                  "from": "return 'img/face/' + options.facestyle + '/' + 'makeup/mascara' + options.mascara_running + '.png'",
+                  "to": "return 'img/face/' + options.closeup + '/' + 'makeup/mascara' + options.mascara_running + '.png'"
+               },
+               {
+                  "TODO": "canvasmodel-main.js",
+                  "fileName": "canvasmodel-main.js",
+                  "from": "return 'img/face/' + options.facestyle + '/' + 'makeup/mascara' + options.mascara_running + '.png'",
+                  "to": "return 'img/face/' + options.closeup + '/' + 'makeup/mascara' + options.mascara_running + '.png'"
+               },
+               {
+                  "TODO": "canvasmodel-main.js",
+                  "fileName": "canvasmodel-main.js",
+                  "from": "`img/body/basenoarms-${options.body_type}.png`",
+                  "to": "'img/body/${options.bodystyle}/basenoarms-${options.body_type}.png/"
+               },
+               {
+                  "TODO": "canvasmodel-main.js",
+                  "fileName": "canvasmodel-main.js",
+                  "from": "\"img/body/breasts/\"",
+                  "to": "\"img/body/\" + options.bodystyle + \"/breasts/\""
+               },
+               {
+                  "TODO": "canvasmodel-main.js",
+                  "fileName": "canvasmodel-main.js",
+                  "from": "\"img/body/preggyBelly/pregnancy_belly_\" + options.belly + \".png\"",
+                  "to": "\"img/body/\" + options.bodystyle + \"/preggyBelly/pregnancy_belly_\" + options.belly + \".png\""
+               },
+               {
+                  "TODO": "canvasmodel-main.js",
+                  "fileName": "canvasmodel-main.js",
+                  "from": "'img/body/breasts/chestparasite' + options.breast_size + '.png'",
+                  "to": "'img/body/' + options.bodystyle + '/breasts/chestparasite' + options.breast_size + '.png'"
+               },
+               {
+                  "TODO": "canvasmodel-main.js",
+                  "fileName": "canvasmodel-main.js",
+                  "from": "'img/body/breasts/chestslime' + options.breast_size + '.png'",
+                  "to": "'img/body/' + options.bodystyle + '/breasts/chestslime' + options.breast_size + '.png'"
+               },
+               {
+                  "TODO": "canvasmodel-main.js",
+                  "fileName": "canvasmodel-main.js",
+                  "from": "'img/body/breasts/breastsparasite' + options.breast_size + '.png'",
+                  "to": "'img/body/' + options.bodystyle + '/breasts/breastsparasite' + options.breast_size + '.png'"
+               },
+               {
+                  "TODO": "canvasmodel-main.js",
+                  "fileName": "canvasmodel-main.js",
+                  "from": "\"img/body/leftarm.png\"",
+                  "to": "\"img/body/\" + options.bodystyle + \"/leftarm.png\""
+               },
+               {
+                  "TODO": "canvasmodel-main.js",
+                  "fileName": "canvasmodel-main.js",
+                  "from": "`img/body/leftarmidle-${options.body_type}.png`",
+                  "to": "`img/body/${options.bodystyle}/leftarmidle-${options.body_type}.png`"
+               },
+               {
+                  "TODO": "canvasmodel-main.js",
+                  "fileName": "canvasmodel-main.js",
+                  "from": "\"img/body/rightarm.png\"",
+                  "to": "\"img/body/\" + options.bodystyle + \"/rightarm.png\""
+               },
+               {
+                  "TODO": "canvasmodel-main.js",
+                  "fileName": "canvasmodel-main.js",
+                  "from": "`img/body/rightarmidle-${options.body_type}.png`",
+                  "to": "`img/body/${options.bodystyle}/rightarmidle-${options.body_type}.png`"
+               }
+            ],
+            "twee": [
+               {
+                  "TODO": "canvasmodel-img.twee",
+                  "passageName": "Widgets Canvas Model Main",
+                  "from": "<<set _modeloptions.facestyle to $facestyle>>",
+                  "to": "<<if $options.closeup is undefined>>\n\t\t<<set $options.closeup to \"default\">>\n\t<</if>>\n\t<<set _modeloptions.closeup to $options.closeup>>\n\n\t<<set _modeloptions.facestyle to $facestyle>>"
+               },
+               {
+                  "TODO": "canvasmodel-img.twee",
+                  "passageName": "Widgets Canvas Model Main",
+                  "from": "<<set _modeloptions.facestyle to $facestyle>>",
+                  "to": "<<if $options.bodystyle is undefined>>\n\t\t<<set $options.bodystyle to \"default\">>\n\t<</if>>\n\t<<set _modeloptions.bodystyle to $options.bodystyle>>\n\n\t<<set _modeloptions.facestyle to $facestyle>>"
+               },
+               {
+                  "TODO": "options.twee",
+                  "passageName": "Options Overlay",
+                  "from": "<<widget \"optionstheme\">>\n\t<<setupOptions>>",
+                  "to": "<<widget \"optionstheme\">>\n\t<<setupOptions>>\n\t<span class=\"gold\">特写选择</span><br>\n\t<label><<radiobutton \"$options.closeup\" \"default\" autocheck>>默认无特写</label> | <br>\n\t<label><<radiobutton \"$options.bodystyle\" \"default\" autocheck>>默认人模</label> | <br>"
+               },
+               {
+                  "TODO": "options.twee",
+                  "passageName": "Options Overlay",
+                  "from": "<span class=\"gold\">Theme</span>",
+                  "to": "<label><<radiobutton \"$options.closeup\" \"paril\" autocheck>> Paril</label> | <br>\n\t<label><<radiobutton \"$options.closeup\" \"g25\" autocheck>> G25</label> |<br>\n\t<span class=\"gold\">Theme</span>"
+               },
+               {
+                  "TODO": "options.twee",
+                  "passageName": "Options Overlay",
+                  "from": "<span class=\"gold\">Theme</span>",
+                  "to": "<label><<radiobutton \"$options.bodystyle\" \"bee\" autocheck>> BEE</label> | <br>\n\t<span class=\"gold\">Theme</span>"
+               }
+            ]
+         }
+      }
+   ],
+   "dependenceInfo": [
+      {
+         "modName": "ModLoader",
+         "version": ">=1.1.0"
+      },
+      {
+         "modName": "ModLoader DoL ImageLoaderHook",
+         "version": "1.0.0"
+      },
+      {
+         "modName": "TweeReplacer",
+         "version": "1.0.0"
+      },
+      {
+         "modName": "ReplacePatcher",
+         "version": "1.0.0"
+      }
    ]
-  },
-  {
-   "modName": "ReplacePatcher",
-   "addonName": "ReplacePatcherAddon",
-   "modVersion": "1.0.0",
-   "params": {
-    "js": [
-     {
-      "TODO": "canvasmodel-main.js",
-      "fileName": "canvasmodel-main.js",
-      "from": "return \"img/body/basehead.png\"",
-      "to": "return \"img/body/\" + options.closeup + \"/basehead.png\""
-     },
-     {
-        "TODO": "canvasmodel-main.js",
-        "fileName": "canvasmodel-main.js",
-        "from": "return 'img/face/' + options.facestyle + '/base.png'",
-        "to": "return 'img/face/' + options.closeup + '/base.png'"
-     },
-     {
-        "TODO": "canvasmodel-main.js",
-        "fileName": "canvasmodel-main.js",
-        "from": "return 'img/face/' + options.facestyle + '/freckles.png'",
-        "to": "return 'img/face/' + options.closeup + '/freckles.png'"
-     },
-     {
-        "TODO": "canvasmodel-main.js",
-        "fileName": "canvasmodel-main.js",
-        "from": "return 'img/face/' + options.facestyle + '/ears.png'",
-        "to": "return 'img/face/' + options.closeup + '/ears.png'"
-     },
-     {
-        "TODO": "canvasmodel-main.js",
-        "fileName": "canvasmodel-main.js",
-        "from": "return 'img/face/' + options.facestyle + '/eyes.png'",
-        "to": "return 'img/face/' + options.closeup + '/eyes.png'"
-     },
-     {
-        "TODO": "canvasmodel-main.js",
-        "fileName": "canvasmodel-main.js",
-        "from": "return 'img/face/' + options.facestyle + '/' + (options.eyes_bloodshot ? \"sclerabloodshot\" : \"sclera\") + '.png'",
-        "to": "return 'img/face/' + options.closeup + '/' + (options.eyes_bloodshot ? \"sclerabloodshot\" : \"sclera\") + '.png'"
-     },
-     {
-        "TODO": "canvasmodel-main.js",
-        "fileName": "canvasmodel-main.js",
-        "from": "return 'img/face/' + options.facestyle + '/' + (options.trauma ? \"irisempty\" : \"iris\") + (options.eyes_half ? \"_halfclosed\" : \"\") + '_left.png'",
-        "to": "return 'img/face/' + options.closeup + '/' + (options.trauma ? \"irisempty\" : \"iris\") + (options.eyes_half ? \"_halfclosed\" : \"\") + '_left.png'"
-     },
-     {
-        "TODO": "canvasmodel-main.js",
-        "fileName": "canvasmodel-main.js",
-        "from": "return 'img/face/' + options.facestyle + '/' + (options.trauma ? \"irisempty\" : \"iris\") + (options.eyes_half ? \"_halfclosed\" : \"\") + '_right.png'",
-        "to": "return 'img/face/' + options.closeup + '/' + (options.trauma ? \"irisempty\" : \"iris\") + (options.eyes_half ? \"_halfclosed\" : \"\") + '_right.png'"
-     },
-     {
-        "TODO": "canvasmodel-main.js",
-        "fileName": "canvasmodel-main.js",
-        "from": "return 'img/face/' + options.facestyle + '/eyelids' + (options.eyes_half ? \"_halfclosed\" : \"\") + '.png'",
-        "to": "return 'img/face/' + options.closeup + '/eyelids' + (options.eyes_half ? \"_halfclosed\" : \"\") + '.png'"
-     },
-     {
-        "TODO": "canvasmodel-main.js",
-        "fileName": "canvasmodel-main.js",
-        "from": "return 'img/face/' + options.facestyle + '/lashes' + (options.eyes_half ? \"_halfclosed\" : \"\") + '.png'",
-        "to": "return 'img/face/' + options.closeup + '/lashes' + (options.eyes_half ? \"_halfclosed\" : \"\") + '.png'"
-     },
-     {
-        "TODO": "canvasmodel-main.js",
-        "fileName": "canvasmodel-main.js",
-        "from": "return 'img/face/' + options.facestyle + '/makeup/eyeshadows' + (options.eyes_half ? \"_halfclosed\" : \"\") + '.png'",
-        "to": "return 'img/face/' + options.closeup + '/makeup/eyeshadows' + (options.eyes_half ? \"_halfclosed\" : \"\") + '.png'"
-     },
-     {
-        "TODO": "canvasmodel-main.js",
-        "fileName": "canvasmodel-main.js",
-        "from": "return 'img/face/' + options.facestyle + '/makeup/mascara' + (options.eyes_half ? \"_halfclosed\" : \"\") + '.png'",
-        "to": "return 'img/face/' + options.closeup + '/makeup/mascara' + (options.eyes_half ? \"_halfclosed\" : \"\") + '.png'"
-     },
-     {
-        "TODO": "canvasmodel-main.js",
-        "fileName": "canvasmodel-main.js",
-        "from": "return 'img/face/' + options.facestyle + '/brow' + options.brows + '.png'",
-        "to": "return 'img/face/' + options.closeup + '/brow' + options.brows + '.png'"
-     },
-     {
-        "TODO": "canvasmodel-main.js",
-        "fileName": "canvasmodel-main.js",
-        "from": "return 'img/face/' + options.facestyle + '/mouth' + options.mouth + '.png'",
-        "to": "return 'img/face/' + options.closeup + '/mouth' + options.mouth + '.png'"
-     },
-     {
-        "TODO": "canvasmodel-main.js",
-        "fileName": "canvasmodel-main.js",
-        "from": "return 'img/face/' + options.facestyle + '/makeup/lipstick_' + options.mouth + '.png'",
-        "to": "return 'img/face/' + options.closeup + '/makeup/lipstick_' + options.mouth + '.png'"
-     },
-     {
-        "TODO": "canvasmodel-main.js",
-        "fileName": "canvasmodel-main.js",
-        "from": "return 'img/face/' + options.facestyle + '/blush' + options.blush + '.png'",
-        "to": "return 'img/face/' + options.closeup + '/blush' + options.blush + '.png'"
-     },
-     {
-        "TODO": "canvasmodel-main.js",
-        "fileName": "canvasmodel-main.js",
-        "from": "return 'img/face/' + options.facestyle + '/' + 'tear' + options.tears + '.png'",
-        "to": "return 'img/face/' + options.closeup + '/' + 'tear' + options.tears + '.png'"
-     },
-     {
-        "TODO": "canvasmodel-main.js",
-        "fileName": "canvasmodel-main.js",
-        "from": "return 'img/face/' + options.facestyle + '/' + 'makeup/mascara' + options.mascara_running + '.png'",
-        "to": "return 'img/face/' + options.closeup + '/' + 'makeup/mascara' + options.mascara_running + '.png'"
-     }
-    ],
-    "twee": [
-     {
-      "TODO": "canvasmodel-img.twee",
-      "passageName": "Widgets Canvas Model Main",
-      "from": "<<set _modeloptions.facestyle to $facestyle>>",
-      "to": "<<if $options.closeup is undefined>>\n\t\t<<set $options.closeup to \"default\">>\n\t<</if>>\n\t<<set _modeloptions.closeup to $options.closeup>>\n\n\t<<set _modeloptions.facestyle to $facestyle>>"
-     },
-     {
-      "TODO": "options.twee",
-      "passageName": "Options Overlay",
-      "from": "<<widget \"optionstheme\">>\n\t<<setupOptions>>",
-      "to": "<<widget \"optionstheme\">>\n\t<<setupOptions>>\n\t<span class=\"gold\">特写选择</span><br>\n\t<label><<radiobutton \"$options.closeup\" \"default\" autocheck>>默认</label> | <br>"
-     },
-     {
-      "TODO": "options.twee",
-      "passageName": "Options Overlay",
-      "from": "<span class=\"gold\">Theme</span>",
-      "to": "<label><<radiobutton \"$options.closeup\" \"paril\" autocheck>> Paril</label> | <br>\n\t<label><<radiobutton \"$options.closeup\" \"g25\" autocheck>> G25</label> |<br>\n\t<span class=\"gold\">Theme</span>"
-     }
-    ]
-   }
-  }
- ],
- "dependenceInfo": [
-  {
-   "modName": "ModLoader",
-   "version": ">=1.1.0"
-  },
-  {
-   "modName": "ModLoader DoL ImageLoaderHook",
-   "version": "1.0.0"
-  },
-  {
-   "modName": "TweeReplacer",
-   "version": "1.0.0"
-  },
-  {
-   "modName": "ReplacePatcher",
-   "version": "1.0.0"
-  }
- ]
 }
