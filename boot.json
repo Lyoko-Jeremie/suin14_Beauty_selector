@@ -24,8 +24,8 @@
    "modName": "TweeReplacer",
    "addonName": "TweeReplacerAddon",
    "modVersion": "1.0.0",
-   "params": [
-    
+   "params": [ 
+
    ]
   },
   {
@@ -149,6 +149,18 @@
       "passageName": "Widgets Canvas Model Main",
       "from": "<<set _modeloptions.facestyle to $facestyle>>",
       "to": "<<if $options.closeup is undefined>>\n\t\t<<set $options.closeup to \"default\">>\n\t<</if>>\n\t<<set _modeloptions.closeup to $options.closeup>>\n\n\t<<set _modeloptions.facestyle to $facestyle>>"
+     },
+     {
+      "TODO": "options.twee",
+      "passageName": "Options Overlay",
+      "from": "<<widget \"optionstheme\">>\n\t<<setupOptions>>",
+      "to": "<<widget \"optionstheme\">>\n\t<<setupOptions>>\n\t<span class=\"gold\">特写选择</span><br>\n\t<label><<radiobutton \"$options.closeup\" \"default\" autocheck>>默认</label> | <br>"
+     },
+     {
+      "TODO": "options.twee",
+      "passageName": "Options Overlay",
+      "from": "<span class=\"gold\">Theme</span>",
+      "to": "<label><<radiobutton \"$options.closeup\" \"paril\" autocheck>> Paril</label> | <br>\n\t<label><<radiobutton \"$options.closeup\" \"g25\" autocheck>> G25</label> |<br>\n\t<span class=\"gold\">Theme</span>"
      }
     ]
    }
