@@ -3248,7 +3248,7 @@ function genlayer_clothing_accessory(slot, overrideOptions) {
 				setup.outfitPrimary.head !== undefined;
 			let isAltPosition = options.alt_position &&
 				setup.altposition !== undefined;
-			let path = 'img/clothes/' +
+			let path = 'img/clothes/' + options.bodystyle + '/' +
 				slot + '/' +
 				setup.variable + '/' +
 				'acc' +
@@ -3294,7 +3294,7 @@ function genlayer_clothing_breasts(slot, overrideOptions) {
 function genlayer_clothing_belly(slot, overrideOptions) {
 	return Object.assign({
 		srcfn(options) {
-			let path = 'img/clothes/' +
+			let path = 'img/clothes/' + options.bodystyle + '/' +
 				slot + '/' +
 				options["worn_" + slot + "_setup"].variable + '/' +
 				options["worn_" + slot + "_integrity"] + '.png';
@@ -3346,7 +3346,7 @@ function genlayer_clothing_belly(slot, overrideOptions) {
 function genlayer_clothing_belly_2(slot, overrideOptions) {
 	return Object.assign({
 		srcfn(options) {
-			let path = 'img/clothes/' +
+			let path = 'img/clothes/' + options.bodystyle + '/' +
 				slot + '/' +
 				options["worn_" + slot + "_setup"].variable + '/' +
 				options["worn_" + slot + "_integrity"] + '.png';
@@ -3398,7 +3398,7 @@ function genlayer_clothing_belly_2(slot, overrideOptions) {
 function genlayer_clothing_belly_split(slot, overrideOptions) {
 	return Object.assign({
 		srcfn(options) {
-			let path = 'img/clothes/' +
+			let path = 'img/clothes/' + options.bodystyle + '/' +
 				slot + '/' +
 				options["worn_" + slot + "_setup"].variable + '/' +
 				options["worn_" + slot + "_integrity"] + '.png';
@@ -3426,7 +3426,7 @@ function genlayer_clothing_belly_split(slot, overrideOptions) {
 function genlayer_clothing_belly_shadow(slot, overrideOptions) {
 	return Object.assign({
 		srcfn(options) {
-			let path = 'img/clothes/' +
+			let path = 'img/clothes/' + options.bodystyle + '/' +
 				slot + '/' +
 				options["worn_" + slot + "_setup"].variable + '/' +
 				options["worn_" + slot + "_integrity"] + '.png';
@@ -3509,7 +3509,7 @@ function genlayer_clothing_belly_acc(slot, overrideOptions) {
 				setup.outfitPrimary.head !== undefined;
 			let isAltPosition = options.alt_position &&
 				setup.altposition !== undefined;
-			let path = 'img/clothes/' +
+			let path = 'img/clothes/' + options.bodystyle + '/' +
 				slot + '/' +
 				setup.variable + '/' +
 				'acc' +
