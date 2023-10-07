@@ -231,20 +231,26 @@
                {
                   "TODO": "canvasmodel-main.js",
                   "fileName": "canvasmodel-main.js",
-                  "from": "img/body/penis/penisparasite",
-                  "to": "img/body/' + options.bodystyle + '/penis/penisparasite"
+                  "from": "img/body/cliturchin.png",
+                  "to": "img/body/' + options.bodystyle + '/cliturchin.png"
                },
                {
                   "TODO": "canvasmodel-main.js",
                   "fileName": "canvasmodel-main.js",
-                  "from": "img/body/penis/penisparasite",
-                  "to": "img/body/' + options.bodystyle + '/penis/penisparasite"
+                  "from": "img/body/clitslime.png",
+                  "to": "img/body/' + options.bodystyle + '/clitslime.png"
                },
                {
                   "TODO": "canvasmodel-main.js",
                   "fileName": "canvasmodel-main.js",
-                  "from": "img/body/penis/penisparasite",
-                  "to": "img/body/' + options.bodystyle + '/penis/penisparasite"
+                  "from": "img/body/baseparasite.png",
+                  "to": "img/body/' + options.bodystyle + '/baseparasite.png"
+               },
+               {
+                  "TODO": "canvasmodel-main.js",
+                  "fileName": "canvasmodel-main.js",
+                  "from": "img/body/penis/condom",
+                  "to": "img/body/' + options.bodystyle + '/penis/condom"
                }
 
             ],
