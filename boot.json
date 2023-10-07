@@ -280,7 +280,7 @@
                   "TODO": "canvasmodel-main.js",
                   "fileName": "canvasmodel-main.js",
                   "from": "img/body/cum/Face",
-                  "to": "img/body/\" + options.bodystyle + \"/cum/Face"
+                  "to": "img/body/\" + options.closeup + \"/cum/Face"
                },
                {
                   "TODO": "canvasmodel-main.js",
