@@ -480,7 +480,30 @@
                   "from": "img/clothes/genitals/' + options.worn_genitals_setup.variable + '/slime.png",
                   "to": "img/clothes/' + options.bodystyle + '/genitals/' + options.worn_genitals_setup.variable + '/slime.png"
                },
-               
+               {
+                  "TODO": "canvasmodel-main.js",
+                  "fileName": "canvasmodel-main.js",
+                  "from": "'img/clothes/genitals/' + options.worn_genitals_setup.variable + '/' + options.worn_genitals_integrity +",
+                  "to": "'img/clothes/' + options.bodystyle + '/genitals/' + options.worn_genitals_setup.variable + '/' + options.worn_genitals_integrity +"
+               },
+               {
+                  "TODO": "canvasmodel-main.js",
+                  "fileName": "canvasmodel-main.js",
+                  "from": "'img/clothes/lower/' +\n\t\t\t\t\toptions.worn_lower_setup.variable + '/' +\n\t\t\t\t\t(options.worn_lower_setup.accessory_integrity_img",
+                  "to": "'img/clothes/' + options.bodystyle + '/lower/' +\n\t\t\t\t\toptions.worn_lower_setup.variable + '/' +\n\t\t\t\t\t(options.worn_lower_setup.accessory_integrity_img"
+               },
+               {
+                  "TODO": "canvasmodel-main.js",
+                  "fileName": "canvasmodel-main.js",
+                  "from": "'img/clothes/lower/' + options.worn_lower_setup.variable + '/' + 'penis.png'",
+                  "to": "'img/clothes/' + options.bodystyle + '/lower/' + options.worn_lower_setup.variable + '/' + 'penis.png'"
+               },
+               {
+                  "TODO": "canvasmodel-main.js",
+                  "fileName": "canvasmodel-main.js",
+                  "from": "'img/clothes/lower/' + options.worn_lower_setup.variable + '/' + 'acc_penis.png'",
+                  "to": "'img/clothes/' + options.bodystyle + '/lower/' + options.worn_lower_setup.variable + '/' + 'acc_penis.png'"
+               }
             ],
             "twee": [
                {
