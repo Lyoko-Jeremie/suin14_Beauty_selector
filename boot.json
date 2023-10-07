@@ -197,6 +197,24 @@
                   "fileName": "canvasmodel-main.js",
                   "from": "img/body/penis/penis_chastitysmall.png",
                   "to": "img/body/\" + options.bodystyle + \"/penis/penis_chastitysmall.png"
+               },
+               {
+                  "TODO": "canvasmodel-main.js",
+                  "fileName": "canvasmodel-main.js",
+                  "from": "img/body/penis/penis_chastity.png",
+                  "to": "img/body/\" + options.bodystyle + \"/penis/penis_chastity.png"
+               },
+               {
+                  "TODO": "canvasmodel-main.js",
+                  "fileName": "canvasmodel-main.js",
+                  "from": "(options.balls",
+                  "to": "options.bodystyle + \"/\" + (options.balls"
+               },
+               {
+                  "TODO": "canvasmodel-main.js",
+                  "fileName": "canvasmodel-main.js",
+                  "from": "img/body/penis/penisurchin",
+                  "to": "img/body/' + options.bodystyle + '/penis/penisurchin"
                }
             ],
             "twee": [
