@@ -317,6 +317,54 @@
                   "fileName": "canvasmodel-main.js",
                   "from": "img/body/cum/Tummy ",
                   "to": "img/body/\" + options.bodystyle + \"/cum/Tummy "
+               },
+               {
+                  "TODO": "canvasmodel-main.js",
+                  "fileName": "canvasmodel-main.js",
+                  "from": "return 'img/hair/sides/' + options.hair_sides_type + '/' + options.hair_sides_length + '.png'",
+                  "to": "return 'img/hair/' + options.closeup + '/sides/' + options.hair_sides_type + '/' + options.hair_sides_length + '.png'"
+               },
+               {
+                  "TODO": "canvasmodel-main.js",
+                  "fileName": "canvasmodel-main.js",
+                  "from": "return 'img/hair/fringe/' + options.hair_fringe_type + '/' + options.hair_fringe_length + '.png'",
+                  "to": "return 'img/hair/' + options.closeup + '/fringe/' + options.hair_fringe_type + '/' + options.hair_fringe_length + '.png'"
+               },
+               {
+                  "TODO": "canvasmodel-main.js",
+                  "fileName": "canvasmodel-main.js",
+                  "from": "return \"img/hair/back/\" + options.hair_sides_type + '/' + \"feet.png\"",
+                  "to": "return \"img/hair/\" + options.closeup + \"/back/\" + options.hair_sides_type + '/' + \"feet.png\""
+               },
+               {
+                  "TODO": "canvasmodel-main.js",
+                  "fileName": "canvasmodel-main.js",
+                  "from": "return \"img/hair/back/\" + options.hair_sides_type + '/' + \"thighs.png\"",
+                  "to": "return \"img/hair/\" + options.closeup + \"/back/\" + options.hair_sides_type + '/' + \"thighs.png\""
+               },
+               {
+                  "TODO": "canvasmodel-main.js",
+                  "fileName": "canvasmodel-main.js",
+                  "from": "return \"img/hair/back/\" + options.hair_sides_type + '/' + options.hair_sides_length + \".png\"",
+                  "to": "return \"img/hair/\" + options.closeup + \"/back/\" + options.hair_sides_type + '/' + options.hair_sides_length + \".png\""
+               },
+               {
+                  "TODO": "canvasmodel-main.js",
+                  "fileName": "canvasmodel-main.js",
+                  "from": "return 'img/hair/phair/pb' + options.pbhair_level + '.png'",
+                  "to": "return 'img/hair/' + options.bodystyle + '/phair/pb' + options.pbhair_level + '.png'"
+               },
+               {
+                  "TODO": "canvasmodel-main.js",
+                  "fileName": "canvasmodel-main.js",
+                  "from": "return 'img/hair/phair/pbstrip' + options.pbhair_strip + '.png'",
+                  "to": "return 'img/hair/' + options.bodystyle + '/phair/pbstrip' + options.pbhair_strip + '.png'"
+               },
+               {
+                  "TODO": "canvasmodel-main.js",
+                  "fileName": "canvasmodel-main.js",
+                  "from": "return 'img/hair/phair/balls/' + options.penis_size + '_pb' + options.pbhair_balls + '.png'",
+                  "to": "return 'img/hair/' + options.bodystyle + '/phair/balls/' + options.penis_size + '_pb' + options.pbhair_balls + '.png'"
                }
 
             ],
@@ -332,6 +380,12 @@
                   "passageName": "Widgets Canvas Model Main",
                   "from": "<<set _modeloptions.facestyle to $facestyle>>",
                   "to": "<<if $options.bodystyle is undefined>>\n\t\t<<set $options.bodystyle to \"default\">>\n\t<</if>>\n\t<<set _modeloptions.bodystyle to $options.bodystyle>>\n\n\t<<set _modeloptions.facestyle to $facestyle>>"
+               },
+               {
+                  "TODO": "mirror.twee",
+                  "passageName": "Widgets Mirror",
+                  "from": "<<set _modeloptions.hair_fringe_length to $fringelengthstage>>",
+                  "to": "<<set _modeloptions.hair_fringe_length to $fringelengthstage>>\n\t<<set _modeloptions.closeup to $options.closeup>>\n\t<<set _modeloptions.bodystyle to $options.bodystyle>>"
                },
                {
                   "TODO": "options.twee",
