@@ -251,6 +251,72 @@
                   "fileName": "canvasmodel-main.js",
                   "from": "img/body/penis/condom",
                   "to": "img/body/' + options.bodystyle + '/penis/condom"
+               },
+               {
+                  "TODO": "canvasmodel-main.js",
+                  "fileName": "canvasmodel-main.js",
+                  "from": "img/body/cum/VaginalCumDrip",
+                  "to": "img/body/\" + options.bodystyle + \"/cum/VaginalCumDrip"
+               },
+               {
+                  "TODO": "canvasmodel-main.js",
+                  "fileName": "canvasmodel-main.js",
+                  "from": "img/body/cum/AnalCumDrip",
+                  "to": "img/body/\" + options.bodystyle + \"/cum/AnalCumDrip"
+               },
+               {
+                  "TODO": "canvasmodel-main.js",
+                  "fileName": "canvasmodel-main.js",
+                  "from": "img/body/cum/MouthCumDrip",
+                  "to": "img/body/\" + options.bodystyle + \"/cum/MouthCumDrip"
+               },
+               {
+                  "TODO": "canvasmodel-main.js",
+                  "fileName": "canvasmodel-main.js",
+                  "from": "img/body/cum/Chest",
+                  "to": "img/body/\" + options.bodystyle + \"/cum/Chest"
+               },
+               {
+                  "TODO": "canvasmodel-main.js",
+                  "fileName": "canvasmodel-main.js",
+                  "from": "img/body/cum/Face",
+                  "to": "img/body/\" + options.bodystyle + \"/cum/Face"
+               },
+               {
+                  "TODO": "canvasmodel-main.js",
+                  "fileName": "canvasmodel-main.js",
+                  "from": "img/body/cum/Feet",
+                  "to": "img/body/\" + options.bodystyle + \"/cum/Feet"
+               },
+               {
+                  "TODO": "canvasmodel-main.js",
+                  "fileName": "canvasmodel-main.js",
+                  "from": "img/body/cum/Left Arm ",
+                  "to": "img/body/\" + options.bodystyle + \"/cum/Left Arm "
+               },
+               {
+                  "TODO": "canvasmodel-main.js",
+                  "fileName": "canvasmodel-main.js",
+                  "from": "img/body/cum/Right Arm ",
+                  "to": "img/body/\" + options.bodystyle + \"/cum/Right Arm "
+               },
+               {
+                  "TODO": "canvasmodel-main.js",
+                  "fileName": "canvasmodel-main.js",
+                  "from": "img/body/cum/Neck ",
+                  "to": "img/body/\" + options.bodystyle + \"/cum/Neck "
+               },
+               {
+                  "TODO": "canvasmodel-main.js",
+                  "fileName": "canvasmodel-main.js",
+                  "from": "img/body/cum/Thighs ",
+                  "to": "img/body/\" + options.bodystyle + \"/cum/Thighs "
+               },
+               {
+                  "TODO": "canvasmodel-main.js",
+                  "fileName": "canvasmodel-main.js",
+                  "from": "img/body/cum/Tummy ",
+                  "to": "img/body/\" + options.bodystyle + \"/cum/Tummy "
                }
 
             ],
