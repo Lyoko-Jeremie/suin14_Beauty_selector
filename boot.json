@@ -544,13 +544,13 @@
                   "TODO": "canvasmodel-main.js",
                   "fileName": "canvasmodel-main.js",
                   "from": "'img/clothes/head/' +\n\t\t\t\t\toptions.worn_head_setup.variable + '/' +\n\t\t\t\t\t(options.worn_head_setup.name === \"cat hoodie hood\" && options.worn_upper_setup.name === \"cat hoodie\" ? options.worn_upper_integrity : options.worn_head_integrity) + '.png'",
-                  "to": "'img/clothes/' + options.facestyle + '/head/' +\n\t\t\t\t\toptions.worn_head_setup.variable + '/' +\n\t\t\t\t\t(options.worn_head_setup.name === \"cat hoodie hood\" && options.worn_upper_setup.name === \"cat hoodie\" ? options.worn_upper_integrity : options.worn_head_integrity) + '.png'"
+                  "to": "'img/clothes/' + options.closeup + '/head/' +\n\t\t\t\t\toptions.worn_head_setup.variable + '/' +\n\t\t\t\t\t(options.worn_head_setup.name === \"cat hoodie hood\" && options.worn_upper_setup.name === \"cat hoodie\" ? options.worn_upper_integrity : options.worn_head_integrity) + '.png'"
                },
                {
                   "TODO": "canvasmodel-main.js",
                   "fileName": "canvasmodel-main.js",
                   "from": "'img/clothes/head/' +\n\t\t\t\t\toptions.worn_head_setup.variable + '/' +\n\t\t\t\t\t(options.worn_head_setup.name === \"cat hoodie hood\" && options.worn_upper_setup.name === \"cat hoodie\" ? 'acc_' + options.worn_upper_integrity : 'acc') + '.png'",
-                  "to": "'img/clothes/' + options.facestyle + '/head/' +\n\t\t\t\t\toptions.worn_head_setup.variable + '/' +\n\t\t\t\t\t(options.worn_head_setup.name === \"cat hoodie hood\" && options.worn_upper_setup.name === \"cat hoodie\" ? 'acc_' + options.worn_upper_integrity : 'acc') + '.png'"
+                  "to": "'img/clothes/' + options.closeup + '/head/' +\n\t\t\t\t\toptions.worn_head_setup.variable + '/' +\n\t\t\t\t\t(options.worn_head_setup.name === \"cat hoodie hood\" && options.worn_upper_setup.name === \"cat hoodie\" ? 'acc_' + options.worn_upper_integrity : 'acc') + '.png'"
                },
                {
                   "TODO": "canvasmodel-main.js",
@@ -586,7 +586,7 @@
                   "TODO": "canvasmodel-main.js",
                   "fileName": "canvasmodel-main.js",
                   "from": "'img/clothes/' +\n\t\t\t\tslot + '/' +\n\t\t\t\toptions[\"worn_\" + slot + \"_setup\"].variable + '/' +\n\t\t\t\t(isAltPosition ? 'back_alt' : 'back') + '.png';",
-                  "to": "'img/clothes/' + options.bodystyle + '/' +\n\t\t\t\tslot + '/' +\n\t\t\t\toptions[\"worn_\" + slot + \"_setup\"].variable + '/' +\n\t\t\t\t(isAltPosition ? 'back_alt' : 'back') + '.png';"
+                  "to": "'img/clothes/' + options.closeup + '/' +\n\t\t\t\tslot + '/' +\n\t\t\t\toptions[\"worn_\" + slot + \"_setup\"].variable + '/' +\n\t\t\t\t(isAltPosition ? 'back_alt' : 'back') + '.png';"
                },
                {
                   "TODO": "canvasmodel-main.js",
