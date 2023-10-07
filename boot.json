@@ -279,14 +279,14 @@
                {
                   "TODO": "canvasmodel-main.js",
                   "fileName": "canvasmodel-main.js",
-                  "from": "img/body/cum/Face",
-                  "to": "img/body/\" + options.closeup + \"/cum/Face"
+                  "from": "img/body/cum/Face ",
+                  "to": "img/body/\" + options.closeup + \"/cum/Face "
                },
                {
                   "TODO": "canvasmodel-main.js",
                   "fileName": "canvasmodel-main.js",
-                  "from": "img/body/cum/Feet",
-                  "to": "img/body/\" + options.bodystyle + \"/cum/Feet"
+                  "from": "img/body/cum/Feet ",
+                  "to": "img/body/\" + options.bodystyle + \"/cum/Feet "
                },
                {
                   "TODO": "canvasmodel-main.js",
@@ -337,7 +337,7 @@
                   "TODO": "options.twee",
                   "passageName": "Options Overlay",
                   "from": "<<widget \"optionstheme\">>\n\t<<setupOptions>>",
-                  "to": "<<widget \"optionstheme\">>\n\t<<setupOptions>>\n\t<label><<radiobutton \"$options.closeup\" \"default\" autocheck>>默认无特写</label> | <br>\n\t<label><<radiobutton \"$options.bodystyle\" \"default\" autocheck>>默认人模</label> | <br>\n\t<span class=\"gold\">特写选择</span><br><br>"
+                  "to": "<<widget \"optionstheme\">>\n\t<<setupOptions>>\n\t<label><<radiobutton \"$options.closeup\" \"default\" autocheck>>默认无特写</label> | \n\t<label><<radiobutton \"$options.bodystyle\" \"default\" autocheck>>默认人模</label> | <br>\n\t<span class=\"gold\">特写选择</span><br><br>"
                },
                {
                   "TODO": "options.twee",
