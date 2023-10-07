@@ -215,7 +215,38 @@
                   "fileName": "canvasmodel-main.js",
                   "from": "img/body/penis/penisurchin",
                   "to": "img/body/' + options.bodystyle + '/penis/penisurchin"
+               },
+               {
+                  "TODO": "canvasmodel-main.js",
+                  "fileName": "canvasmodel-main.js",
+                  "from": "img/body/penis/penisslime",
+                  "to": "img/body/' + options.bodystyle + '/penis/penisslime"
+               },
+               {
+                  "TODO": "canvasmodel-main.js",
+                  "fileName": "canvasmodel-main.js",
+                  "from": "img/body/penis/penisparasite",
+                  "to": "img/body/' + options.bodystyle + '/penis/penisparasite"
+               },
+               {
+                  "TODO": "canvasmodel-main.js",
+                  "fileName": "canvasmodel-main.js",
+                  "from": "img/body/penis/penisparasite",
+                  "to": "img/body/' + options.bodystyle + '/penis/penisparasite"
+               },
+               {
+                  "TODO": "canvasmodel-main.js",
+                  "fileName": "canvasmodel-main.js",
+                  "from": "img/body/penis/penisparasite",
+                  "to": "img/body/' + options.bodystyle + '/penis/penisparasite"
+               },
+               {
+                  "TODO": "canvasmodel-main.js",
+                  "fileName": "canvasmodel-main.js",
+                  "from": "img/body/penis/penisparasite",
+                  "to": "img/body/' + options.bodystyle + '/penis/penisparasite"
                }
+
             ],
             "twee": [
                {
