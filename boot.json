@@ -401,10 +401,169 @@
                   "fileName": "canvasmodel-main.js",
                   "from": "img/body/mannequin/penis.png",
                   "to": "img/body/\" + options.bodystyle + \"/mannequin/penis.png"
+               },
+               {
+                  "TODO": "canvasmodel-main.js",
+                  "fileName": "canvasmodel-main.js",
+                  "from": "\"img/clothes/head/\" + options.worn_over_head_setup.variable + \"/mask.png\"",
+                  "to": "\"img/clothes/\" + options.closeup + \"/head/\" + options.worn_over_head_setup.variable + \"/mask.png\""
+               },
+               {
+                  "TODO": "canvasmodel-main.js",
+                  "fileName": "canvasmodel-main.js",
+                  "from": "\"img/clothes/head/\" + options.worn_head_setup.variable + \"/mask_ponytail.png\"",
+                  "to": "\"img/clothes/\" + options.closeup + \"/head/\" + options.worn_head_setup.variable + \"/mask_ponytail.png\""
+               },
+               {
+                  "TODO": "canvasmodel-main.js",
+                  "fileName": "canvasmodel-main.js",
+                  "from": "\"img/clothes/head/\" + options.worn_head_setup.variable + \"/mask.png\"",
+                  "to": "\"img/clothes/\" + options.closeup + \"/head/\" + options.worn_head_setup.variable + \"/mask.png\""
+               },
+               {
+                  "TODO": "canvasmodel-main.js",
+                  "fileName": "canvasmodel-main.js",
+                  "from": "options.belly_mask_lower_shadow_src = \"img/clothes/belly/shadow_\" + options.belly + \".png\"",
+                  "to": "options.belly_mask_lower_shadow_src = \"img/clothes/\" + options.bodystyle + \"/belly/shadow_\" + options.belly + \".png\""
+               },
+               {
+                  "TODO": "canvasmodel-main.js",
+                  "fileName": "canvasmodel-main.js",
+                  "from": "options.belly_mask_upper_shadow_src = \"img/clothes/belly/shadow_\" + options.belly + \".png\"",
+                  "to": "options.belly_mask_upper_shadow_src = \"img/clothes/\" + options.bodystyle + \"/belly/shadow_\" + options.belly + \".png\""
+               },
+               {
+                  "TODO": "canvasmodel-main.js",
+                  "fileName": "canvasmodel-main.js",
+                  "from": "img/clothes/belly/mask_min_\" + options.belly + \".png",
+                  "to": "img/clothes/\" + options.bodystyle + \"/belly/mask_min_\" + options.belly + \".png"
+               },
+               {
+                  "TODO": "canvasmodel-main.js",
+                  "fileName": "canvasmodel-main.js",
+                  "from": "img/clothes/belly/mask_\" + options.belly + \".png",
+                  "to": "img/clothes/\" + options.bodystyle + \"/belly/mask_\" + options.belly + \".png"
+               },
+               {
+                  "TODO": "canvasmodel-main.js",
+                  "fileName": "canvasmodel-main.js",
+                  "from": "options.belly_mask_clip_src = \"img/clothes/belly/mask_clip_\" + options.belly + \".png\"",
+                  "to": "options.belly_mask_clip_src = \"img/clothes/\" + options.bodystyle + \"/belly/mask_clip_\" + options.belly + \".png\""
+               },
+               {
+                  "TODO": "canvasmodel-main.js",
+                  "fileName": "canvasmodel-main.js",
+                  "from": "img/clothes/belly/mask_shirt_left.png",
+                  "to": "img/clothes/\" + options.bodystyle + \"/belly/mask_shirt_left.png"
+               },
+               {
+                  "TODO": "canvasmodel-main.js",
+                  "fileName": "canvasmodel-main.js",
+                  "from": "img/clothes/belly/mask_shirt_right.png",
+                  "to": "img/clothes/\" + options.bodystyle + \"/belly/mask_shirt_right.png"
+               },
+               {
+                  "TODO": "canvasmodel-main.js",
+                  "fileName": "canvasmodel-main.js",
+                  "from": "options.belly_mask_under_clip_src = \"img/clothes/belly/mask_clip_\" + options.belly + \".png\"",
+                  "to": "options.belly_mask_under_clip_src = \"img/clothes/\" + options.bodystyle + \"/belly/mask_clip_\" + options.belly + \".png\""
+               },
+               {
+                  "TODO": "canvasmodel-main.js",
+                  "fileName": "canvasmodel-main.js",
+                  "from": "img/clothes/genitals/' + options.worn_genitals_setup.variable + '/urchin.png",
+                  "to": "img/clothes/' + options.bodystyle + '/genitals/' + options.worn_genitals_setup.variable + '/urchin.png"
+               },
+               {
+                  "TODO": "canvasmodel-main.js",
+                  "fileName": "canvasmodel-main.js",
+                  "from": "img/clothes/genitals/' + options.worn_genitals_setup.variable + '/slime.png",
+                  "to": "img/clothes/' + options.bodystyle + '/genitals/' + options.worn_genitals_setup.variable + '/slime.png"
+               },
+               {
+                  "TODO": "canvasmodel-main.js",
+                  "fileName": "canvasmodel-main.js",
+                  "from": "'img/clothes/genitals/' + options.worn_genitals_setup.variable + '/' + options.worn_genitals_integrity +",
+                  "to": "'img/clothes/' + options.bodystyle + '/genitals/' + options.worn_genitals_setup.variable + '/' + options.worn_genitals_integrity +"
+               },
+               {
+                  "TODO": "canvasmodel-main.js",
+                  "fileName": "canvasmodel-main.js",
+                  "from": "'img/clothes/lower/' +\n\t\t\t\t\toptions.worn_lower_setup.variable + '/' +\n\t\t\t\t\t(options.worn_lower_setup.accessory_integrity_img",
+                  "to": "'img/clothes/' + options.bodystyle + '/lower/' +\n\t\t\t\t\toptions.worn_lower_setup.variable + '/' +\n\t\t\t\t\t(options.worn_lower_setup.accessory_integrity_img"
+               },
+               {
+                  "TODO": "canvasmodel-main.js",
+                  "fileName": "canvasmodel-main.js",
+                  "from": "'img/clothes/lower/' + options.worn_lower_setup.variable + '/' + 'penis.png'",
+                  "to": "'img/clothes/' + options.bodystyle + '/lower/' + options.worn_lower_setup.variable + '/' + 'penis.png'"
+               },
+               {
+                  "TODO": "canvasmodel-main.js",
+                  "fileName": "canvasmodel-main.js",
+                  "from": "'img/clothes/lower/' + options.worn_lower_setup.variable + '/' + 'acc_penis.png'",
+                  "to": "'img/clothes/' + options.bodystyle + '/lower/' + options.worn_lower_setup.variable + '/' + 'acc_penis.png'"
+               },
+               {
+                  "TODO": "canvasmodel-main.js",
+                  "fileName": "canvasmodel-main.js",
+                  "from": "'img/clothes/under_lower/' + options.worn_under_lower_setup.variable + '/' + 'penis.png",
+                  "to": "'img/clothes/' + options.bodystyle + '/under_lower/' + options.worn_under_lower_setup.variable + '/' + 'penis.png'"
+               },
+               {
+                  "TODO": "canvasmodel-main.js",
+                  "fileName": "canvasmodel-main.js",
+                  "from": "'img/clothes/under_lower/' + options.worn_under_lower_setup.variable + '/' + 'acc_penis.png'",
+                  "to": "'img/clothes/' + options.bodystyle + '/under_lower/' + options.worn_under_lower_setup.variable + '/' + 'acc_penis.png'"
+               },
+               {
+                  "TODO": "canvasmodel-main.js",
+                  "fileName": "canvasmodel-main.js",
+                  "from": "'img/clothes/hands/' +\n\t\t\t\t\toptions.worn_hands_setup.variable + '/' +\n\t\t\t\t\t(options.arm_left === \"cover\" ? \"left_cover\" : \"left\") + '.png'",
+                  "to": "'img/clothes/' + options.bodystyle + '/hands/' +\n\t\t\t\t\toptions.worn_hands_setup.variable + '/' +\n\t\t\t\t\t(options.arm_left === \"cover\" ? \"left_cover\" : \"left\") + '.png'"
+               },
+               {
+                  "TODO": "canvasmodel-main.js",
+                  "fileName": "canvasmodel-main.js",
+                  "from": "'img/clothes/hands/' +\n\t\t\t\t\toptions.worn_hands_setup.variable + '/' +\n\t\t\t\t\t(options.arm_left === \"cover\" ? \"left_cover\" : \"left\") + '_acc.png'",
+                  "to": "'img/clothes/' + options.bodystyle + '/hands/' +\n\t\t\t\t\toptions.worn_hands_setup.variable + '/' +\n\t\t\t\t\t(options.arm_left === \"cover\" ? \"left_cover\" : \"left\") + '_acc.png'"
+               },
+               {
+                  "TODO": "canvasmodel-main.js",
+                  "fileName": "canvasmodel-main.js",
+                  "from": "'img/clothes/hands/' +\n\t\t\t\t\toptions.worn_hands_setup.variable + '/' +\n\t\t\t\t\t(options.arm_right === \"cover\" ? \"right_cover\" : \"right\") + '.png'",
+                  "to": "'img/clothes/' + options.bodystyle + '/hands/' +\n\t\t\t\t\toptions.worn_hands_setup.variable + '/' +\n\t\t\t\t\t(options.arm_right === \"cover\" ? \"right_cover\" : \"right\") + '.png'"
+               },
+               {
+                  "TODO": "canvasmodel-main.js",
+                  "fileName": "canvasmodel-main.js",
+                  "from": "'img/clothes/hands/' +\n\t\t\t\t\toptions.worn_hands_setup.variable + '/' +\n\t\t\t\t\t(options.arm_right === \"cover\" ? \"right_cover\" : \"right\") + '_acc.png'",
+                  "to": "'img/clothes/' + options.bodystyle + '/hands/' +\n\t\t\t\t\toptions.worn_hands_setup.variable + '/' +\n\t\t\t\t\t(options.arm_right === \"cover\" ? \"right_cover\" : \"right\") + '_acc.png'"
+               },
+               {
+                  "TODO": "canvasmodel-main.js",
+                  "fileName": "canvasmodel-main.js",
+                  "from": "'img/clothes/head/' +\n\t\t\t\t\toptions.worn_head_setup.variable + '/' +\n\t\t\t\t\t(options.worn_head_setup.name === \"cat hoodie hood\" && options.worn_upper_setup.name === \"cat hoodie\" ? options.worn_upper_integrity : options.worn_head_integrity) + '.png'",
+                  "to": "'img/clothes/' + options.facestyle + '/head/' +\n\t\t\t\t\toptions.worn_head_setup.variable + '/' +\n\t\t\t\t\t(options.worn_head_setup.name === \"cat hoodie hood\" && options.worn_upper_setup.name === \"cat hoodie\" ? options.worn_upper_integrity : options.worn_head_integrity) + '.png'"
+               },
+               {
+                  "TODO": "canvasmodel-main.js",
+                  "fileName": "canvasmodel-main.js",
+                  "from": "'img/clothes/head/' +\n\t\t\t\t\toptions.worn_head_setup.variable + '/' +\n\t\t\t\t\t(options.worn_head_setup.name === \"cat hoodie hood\" && options.worn_upper_setup.name === \"cat hoodie\" ? 'acc_' + options.worn_upper_integrity : 'acc') + '.png'",
+                  "to": "'img/clothes/' + options.facestyle + '/head/' +\n\t\t\t\t\toptions.worn_head_setup.variable + '/' +\n\t\t\t\t\t(options.worn_head_setup.name === \"cat hoodie hood\" && options.worn_upper_setup.name === \"cat hoodie\" ? 'acc_' + options.worn_upper_integrity : 'acc') + '.png'"
+               },
+               {
+                  "TODO": "canvasmodel-main.js",
+                  "fileName": "canvasmodel-main.js",
+                  "from": "'img/clothes/neck/' +\n\t\t\t\t\toptions.worn_neck_setup.variable + '/' +\n\t\t\t\t\toptions.worn_neck_integrity + (options.worn_neck_setup.name",
+                  "to": "'img/clothes/' + options.bodystyle + '/neck/' +\n\t\t\t\t\toptions.worn_neck_setup.variable + '/' +\n\t\t\t\t\toptions.worn_neck_integrity + (options.worn_neck_setup.name"
+               },
+               {
+                  "TODO": "canvasmodel-main.js",
+                  "fileName": "canvasmodel-main.js",
+                  "from": "'img/clothes/neck/' +\n\t\t\t\toptions.worn_neck_setup.variable + '/' +\n\t\t\t\t'acc' +\n\t\t\t\t(setup.accessory_integrity_img ? '_' + options[\"worn_\" + slot + \"_integrity\"] : '') +\n\t\t\t\t(isAltPosition ? '_alt' : '') + '.png';",
+                  "to": "'img/clothes/' + options.bodystyle + '/neck/' +\n\t\t\t\toptions.worn_neck_setup.variable + '/' +\n\t\t\t\t'acc' +\n\t\t\t\t(setup.accessory_integrity_img ? '_' + options[\"worn_\" + slot + \"_integrity\"] : '') +\n\t\t\t\t(isAltPosition ? '_alt' : '') + '.png';"
                }
-
-               
-
             ],
             "twee": [
                {
