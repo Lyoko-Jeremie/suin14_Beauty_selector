@@ -365,7 +365,45 @@
                   "fileName": "canvasmodel-main.js",
                   "from": "return 'img/hair/phair/balls/' + options.penis_size + '_pb' + options.pbhair_balls + '.png'",
                   "to": "return 'img/hair/' + options.bodystyle + '/phair/balls/' + options.penis_size + '_pb' + options.pbhair_balls + '.png'"
+               },
+               {
+                  "TODO": "canvasmodel-main.js",
+                  "fileName": "canvasmodel-main.js",
+                  "from": "img/body/mannequin/basenoarms.png",
+                  "to": "img/body/\" + options.bodystyle + \"/mannequin/basenoarms.png"
+               },
+               {
+                  "TODO": "canvasmodel-main.js",
+                  "fileName": "canvasmodel-main.js",
+                  "from": "img/body/mannequin/basehead.png",
+                  "to": "img/body/\" + options.bodystyle + \"/mannequin/basehead.png"
+               },
+               {
+                  "TODO": "canvasmodel-main.js",
+                  "fileName": "canvasmodel-main.js",
+                  "from": "return \"img/body/mannequin/breasts/\" +",
+                  "to": "return \"img/body/\" + options.bodystyle + \"/mannequin/breasts/\" +"
+               },
+               {
+                  "TODO": "canvasmodel-main.js",
+                  "fileName": "canvasmodel-main.js",
+                  "from": "img/body/mannequin/leftarmidle.png",
+                  "to": "img/body/\" + options.bodystyle + \"/mannequin/leftarmidle.png"
+               },
+               {
+                  "TODO": "canvasmodel-main.js",
+                  "fileName": "canvasmodel-main.js",
+                  "from": "img/body/mannequin/rightarmidle.png",
+                  "to": "img/body/\" + options.bodystyle + \"/mannequin/rightarmidle.png"
+               },
+               {
+                  "TODO": "canvasmodel-main.js",
+                  "fileName": "canvasmodel-main.js",
+                  "from": "img/body/mannequin/penis.png",
+                  "to": "img/body/\" + options.bodystyle + \"/mannequin/penis.png"
                }
+
+               
 
             ],
             "twee": [
@@ -380,6 +418,12 @@
                   "passageName": "Widgets Canvas Model Main",
                   "from": "<<set _modeloptions.facestyle to $facestyle>>",
                   "to": "<<if $options.bodystyle is undefined>>\n\t\t<<set $options.bodystyle to \"default\">>\n\t<</if>>\n\t<<set _modeloptions.bodystyle to $options.bodystyle>>\n\n\t<<set _modeloptions.facestyle to $facestyle>>"
+               },
+               {
+                  "TODO": "clothing-v2.twee",
+                  "passageName": "Clothing Shop v2 Widgets",
+                  "from": "<<set _modeloptions.mannequin to true>>",
+                  "to": "<<set _modeloptions.closeup to $options.closeup>>\n\t\t\t\t\t\t<<set _modeloptions.bodystyle to $options.bodystyle>>\n\t\t\t\t\t\t<<set _modeloptions.mannequin to true>>"
                },
                {
                   "TODO": "mirror.twee",
