@@ -503,6 +503,12 @@
                   "fileName": "canvasmodel-main.js",
                   "from": "'img/clothes/lower/' + options.worn_lower_setup.variable + '/' + 'acc_penis.png'",
                   "to": "'img/clothes/' + options.bodystyle + '/lower/' + options.worn_lower_setup.variable + '/' + 'acc_penis.png'"
+               },
+               {
+                  "TODO": "canvasmodel-main.js",
+                  "fileName": "canvasmodel-main.js",
+                  "from": "'img/clothes/under_lower/' + options.worn_under_lower_setup.variable + '/' + 'penis.png",
+                  "to": "'img/clothes/' + options.bodystyle + '/under_lower/' + options.worn_under_lower_setup.variable + '/' + 'penis.png'"
                }
             ],
             "twee": [
