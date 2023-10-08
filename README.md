@@ -3,7 +3,7 @@
 >
 > 该mod需要helper器和loader器进行辅助。（最后一步放连接）
 >
-> 只有特写创作者需要用到helper，普通玩家只需要loader和Beauty_selector
+> **只有特写创作者需要用到helper**，普通使用者只需要loader和Beauty_selector，直接去看5.loader加载mod教程
 
 ---
 
@@ -19,6 +19,7 @@
 /body/basehead
 /body/cum/Face 1,2 & /body/cum/Face 3,4 & /body/cum/Face 5  **脸部精液**
 /clothes/head **帽子**
+/clothes/???/back.png  **显示在背后的衣物，例如修女帽的背面**
 ```
 
 人模 **bodystyle**：
@@ -38,10 +39,10 @@
 
    ```
    {
-      "TODO": "options.twee", 
-      "passageName": "Options Overlay",
-      "from": "<<widget \"optionstheme\">>\n\t<<setupOptions>>",
-      "to": "<<widget \"optionstheme\">>\n\t<<setupOptions>>\n\t<label><<radiobutton \"$options.bodystyle\" \"{mod_name}\" autocheck>> {选项-主题里显示的名字}</label> | <br>"
+   	"TODO": "options.twee",
+   	"passageName": "Options Overlay",
+   	"from": "<span class=\"gold\">美化选择</span><br>",
+   	"to": "<span class=\"gold\">美化选择</span><br>\n\t<label><<radiobutton \"$options.bodystyle\" \"{mod_name}\" autocheck>> {选项-主题里显示的名字}</label> | <br>"
    }
    ```
 
@@ -49,25 +50,25 @@
 
    ```
    {
-      "TODO": "options.twee",
-      "passageName": "Options Overlay",
-      "from": "<<widget \"optionstheme\">>\n\t<<setupOptions>>",
-      "to": "<<widget \"optionstheme\">>\n\t<<setupOptions>>\n\t<label><<radiobutton \"$options.bodystyle\" \"bee\" autocheck>> BEE</label> | <br>"
-   }
+       "TODO": "options.twee",
+       "passageName": "Options Overlay",
+       "from": "<span class=\"gold\">美化选择</span><br>",
+       "to": "<span class=\"gold\">美化选择</span><br>\n\t<label><<radiobutton \"$options.bodystyle\" \"bee\" autocheck>> BEE</label> | <br>"
+                  }
    ```
 
 ​	脸部特写  **closeup**:
 
 ```
 {
-   "TODO": "options.twee", 
-   "passageName": "Options Overlay",
-   "from": "<<widget \"optionstheme\">>\n\t<<setupOptions>>",
-   "to": "<<widget \"optionstheme\">>\n\t<<setupOptions>>\n\t<label><<radiobutton \"$options.closeup\" \"{mod_name}\" autocheck>> {选项-主题里显示的名字}</label> | <br>"
+	"TODO": "options.twee",
+	"passageName": "Options Overlay",
+	"from": "<span class=\"gold\">美化选择</span><br>",
+	"to": "<span class=\"gold\">美化选择</span><br>\n\t<label><<radiobutton \"$options.closeup\" \"{mod_name}\" autocheck>> {选项-主题里显示的名字}</label> | <br>"
 }
 ```
 
-> **提醒** : 第一行的name改成你的mod名字，所有的{}都是你要替换的，最后boot里不会有任何中文字，如果同时有bodystyle和closeup，就打一个逗号（英文的）然后复制粘贴上面的代码（twee里只有两个{}之间有，不要在最后一个{}的后面写，）
+> **提醒** : 第一行的name记得改成你的mod名字，所有的{}都是你要替换的，最后boot里不会有任何中文字，如果同时有bodystyle和closeup，就打一个逗号（英文的）然后复制粘贴上面的代码（twee里只有两个{}之间有，不要在最后一个{}的后面写，）
 
 
 
