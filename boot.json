@@ -599,6 +599,42 @@
                   "fileName": "canvasmodel-main.js",
                   "from": "'img/clothes/' +\n\t\t\t\tslot + '/' +\n\t\t\t\toptions[\"worn_\" + slot + \"_setup\"].variable + '/' +\n\t\t\t\t(options[\"arm_\" + arm] === \"cover\" ? (arm + '_cover_acc.png') : (arm + \"_acc.png\"));",
                   "to": "'img/clothes/' + options.bodystyle + '/' +\n\t\t\t\tslot + '/' +\n\t\t\t\toptions[\"worn_\" + slot + \"_setup\"].variable + '/' +\n\t\t\t\t(options[\"arm_\" + arm] === \"cover\" ? (arm + '_cover_acc.png') : (arm + \"_acc.png\"));"
+               },
+               {
+                  "TODO": "canvasmodel-main.js",
+                  "fileName": "canvasmodel-main.js",
+                  "from": "function genlayer_clothing_accessory(slot, overrideOptions) {\n\treturn Object.assign({\n\t\tsrcfn(options) {\n\t\t\tlet setup = options[\"worn_\" + slot + \"_setup\"];\n\t\t\tlet isHoodDown = options.hood_down &&\n\t\t\t\tsetup.hoodposition !== undefined &&\n\t\t\t\tsetup.outfitPrimary.head !== undefined;\n\t\t\tlet isAltPosition = options.alt_position &&\n\t\t\t\tsetup.altposition !== undefined;\n\t\t\tlet path = 'img/clothes/' +",
+                  "to": "function genlayer_clothing_accessory(slot, overrideOptions) {\n\treturn Object.assign({\n\t\tsrcfn(options) {\n\t\t\tlet setup = options[\"worn_\" + slot + \"_setup\"];\n\t\t\tlet isHoodDown = options.hood_down &&\n\t\t\t\tsetup.hoodposition !== undefined &&\n\t\t\t\tsetup.outfitPrimary.head !== undefined;\n\t\t\tlet isAltPosition = options.alt_position &&\n\t\t\t\tsetup.altposition !== undefined;\n\t\t\tlet path = 'img/clothes/' + options.bodystyle + '/' +"
+               },
+               {
+                  "TODO": "canvasmodel-main.js",
+                  "fileName": "canvasmodel-main.js",
+                  "from": "function genlayer_clothing_belly(slot, overrideOptions) {\n\treturn Object.assign({\n\t\tsrcfn(options) {\n\t\t\tlet path = 'img/clothes/' +",
+                  "to": "function genlayer_clothing_belly(slot, overrideOptions) {\n\treturn Object.assign({\n\t\tsrcfn(options) {\n\t\t\tlet path = 'img/clothes/' + options.bodystyle + '/' +"
+               },
+               {
+                  "TODO": "canvasmodel-main.js",
+                  "fileName": "canvasmodel-main.js",
+                  "from": "function genlayer_clothing_belly_2(slot, overrideOptions) {\n\treturn Object.assign({\n\t\tsrcfn(options) {\n\t\t\tlet path = 'img/clothes/' +",
+                  "to": "function genlayer_clothing_belly_2(slot, overrideOptions) {\n\treturn Object.assign({\n\t\tsrcfn(options) {\n\t\t\tlet path = 'img/clothes/' + options.bodystyle + '/' +"
+               },
+               {
+                  "TODO": "canvasmodel-main.js",
+                  "fileName": "canvasmodel-main.js",
+                  "from": "function genlayer_clothing_belly_split(slot, overrideOptions) {\n\treturn Object.assign({\n\t\tsrcfn(options) {\n\t\t\tlet path = 'img/clothes/' +",
+                  "to": "function genlayer_clothing_belly_split(slot, overrideOptions) {\n\treturn Object.assign({\n\t\tsrcfn(options) {\n\t\t\tlet path = 'img/clothes/' + options.bodystyle + '/' +"
+               },
+               {
+                  "TODO": "canvasmodel-main.js",
+                  "fileName": "canvasmodel-main.js",
+                  "from": "function genlayer_clothing_belly_shadow(slot, overrideOptions) {\n\treturn Object.assign({\n\t\tsrcfn(options) {\n\t\t\tlet path = 'img/clothes/' +",
+                  "to": "function genlayer_clothing_belly_shadow(slot, overrideOptions) {\n\treturn Object.assign({\n\t\tsrcfn(options) {\n\t\t\tlet path = 'img/clothes/' + options.bodystyle + '/' +"
+               },
+               {
+                  "TODO": "canvasmodel-main.js",
+                  "fileName": "canvasmodel-main.js",
+                  "from": "function genlayer_clothing_belly_acc(slot, overrideOptions) {\n\treturn Object.assign({\n\t\tsrcfn(options) {\n\t\t\tlet setup = options[\"worn_\" + slot + \"_setup\"];\n\t\t\tlet isHoodDown = options.hood_down &&\n\t\t\t\tsetup.hoodposition !== undefined &&\n\t\t\t\tsetup.outfitPrimary.head !== undefined;\n\t\t\tlet isAltPosition = options.alt_position &&\n\t\t\t\tsetup.altposition !== undefined;\n\t\t\tlet path = 'img/clothes/' +",
+                  "to": "function genlayer_clothing_belly_acc(slot, overrideOptions) {\n\treturn Object.assign({\n\t\tsrcfn(options) {\n\t\t\tlet setup = options[\"worn_\" + slot + \"_setup\"];\n\t\t\tlet isHoodDown = options.hood_down &&\n\t\t\t\tsetup.hoodposition !== undefined &&\n\t\t\t\tsetup.outfitPrimary.head !== undefined;\n\t\t\tlet isAltPosition = options.alt_position &&\n\t\t\t\tsetup.altposition !== undefined;\n\t\t\tlet path = 'img/clothes/' + options.bodystyle + '/' +"
                }
             ],
             "twee": [
